@@ -1,23 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="es"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <head>
 <title>Mi mejor amigo</title>
+<head>
+<script>
+var f=new Date();
+var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+document.write('<div class="mifecha">');
+document.write('<div class="ano">' + f.getFullYear() + '</div>');
+document.write('<div class="dia">' + f.getDate() + '</div>');
+document.write('<div class="mes">' + meses[f.getMonth()] + '</div>');
+document.write('</div>');
+</script>
+</head>
 <link rel="stylesheet" type="text/css" href="css/estilo.css" >
 </head>
 <body>
 <h1>
 <p>En este apartado de la web vamos a hablar sobre razas de nuestro posible amigo, el perro. Hay más de 800 razas de perros y otros muchos que no pertenecen a una de ellas. Hablaremos de las razas más conocidas:</p>
--Pastor alemán
--Golden retriever
--Cocker
--Yorkshire terrier
+<br>-Pastor alemán u ovejero alemán: es una raza que proviene de Alemania. Su origen se remonta a 1899. Fueron originalmente desarrollados como grupos de perros para reunir y vigilar el rebaño.</br>
+<img src="imagenpastoraleman.jpg" alt="Fotografia pastor alemán">
+<br>-Golden retriever</br>
+<img src="imagengoldenretriever.jpg" alt="Fotografía golden retriever">
+<br>-Cocker</br>
+<img src="imagencocker.jpg" alt="Fotografía cocker">
+<br>-Yorkshire terrier</br>
+<img src="imagenyorkshire.jpg" alt="Fotografía Yorkshire terrier">
  </h1>
- <h2>
+ <h2> 
+ <table border="5">
+ <caption> Características de las razas de perro </caption>
+ <tr><th>Nombre</th><th>Tamaño</th><th>Peso</th><th>Carácter</th><th>Curiosidades</th></tr>
+ <tr><td>Pastor Alemán</td><td>60cm</td><td>30kg</td><td>Desenvuelto, amigable, fácil de entrenar y disciplinado</td><td>Perro policía en REX</td></tr>
+ <tr><td>Golden retriever</td><td>60cm</td><td>32kg</td><td>Activo, bondadoso y dócil</td><td>Aparece en anuncios de una conocida marca de pañuelos</td></tr>
+ <tr><td>Cocker</td><td>38cm</td><td>15kg</td><td>Muy mimoso,familiar,perro de campo</td><td>Muy popular en los últimos años</td></tr>
+ <tr><td>Yorkshire terrier</td><td>15cm</td><td>4kg</td><td>Inquieto, alegre y temperamental</td><td>Raza pionera en la moda canina</td></tr>
+ </table>
  </h2>
- 
-<button type="button" onclick="pulsado(this)">No pulses!</button>
-
-<script src="javascript/codigo.js"></script>
+ <h3>
+ <audio src="Sleep Away.mp3" controls autoplay loop>
+ </h3>
 <footer>
 © 2013. Todos los derechos reservados. Paula Estrada Iglesias
 </footer>

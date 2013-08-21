@@ -1,4 +1,14 @@
+body
+{background:yellow;}
 h1
-{color:blue
-;background-color:white;
-font-family: fantasy;}
+{color:blue;
+font-family: fantasy;
+font-size:medium;}
+h2
+{background-color:grey;}
+h3
+{font-size:small}
+table
+{border-style: solid;
+border-color: green;
+font-size:medium}
